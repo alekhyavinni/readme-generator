@@ -7,10 +7,10 @@ const generateReadme = require('./utils/generateMarkdown')
 
 
 //an array of questions for user input
-const questions = () =>{
+function questions(){
 
     //using inquirer to propmt questions to user
-    return inquirer.createPromptModule([
+    return inquirer.prompt([
         {
             type:'input',
             name:'github',
@@ -43,7 +43,7 @@ const questions = () =>{
         {
             type:'input',
             name:'title',
-            mesaage:'Enter your project name?',
+            message:'Enter your project name?',
             validate:nameInput =>{
                 if(nameInput){
                     return true;
@@ -57,7 +57,7 @@ const questions = () =>{
         {
             type:'input',
             name:'description',
-            mesaage:'Write a short description about the project',
+            message:'Write a short description about the project',
             validate:nameInput =>{
                 if(nameInput){
                     return true;
@@ -128,7 +128,7 @@ const questions = () =>{
 
 // function to write README file
 const writeToFile = data=>{
-fs.writeToFile('README.md',data,err =>{
+fs.writeFile('README.md',data,err =>{
 if(err){
     console.log(err);
     return;
