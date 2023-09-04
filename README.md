@@ -12,8 +12,7 @@ License
  The user should clone the repository from GitHub and download Node. This application also requires a file system and inquirer module. 
 
 # Video  
-  <img src="utils/readmeVideo.gif"><br>
-
+![GIF of my project in action](./utils/readmeVideo.gif)
 
  ## License 
   This project is license under MIT
