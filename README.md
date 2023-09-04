@@ -13,8 +13,7 @@ License
 
 # Video  
   Use inquirer from your command line to answer questions about your project.
-  <img src="utils/readmeVideo.mp4"><br>
-  Or view link here -
+  <img src="utils/readmeVideo.GIF"><br>
 
 
  ## License 
