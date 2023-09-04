@@ -12,8 +12,7 @@ License
  The user should clone the repository from GitHub and download Node. This application also requires a file system and inquirer module. 
 
 # Video  
-  Use inquirer from your command line to answer questions about your project.
-  <img src="utils/readmeVideo.GIF"><br>
+  <img src="utils/readmeVideo.gif"><br>
 
 
  ## License 
