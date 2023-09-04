@@ -1,19 +1,20 @@
 # readme-generator
 This application was developed to produce a professional and high-quality README by collecting input from users via command-line prompts using Node.js.
 
-# Table of Contents
-Installation
-Usage
-Credits
-License
+## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
 
 # Installation
  The user should clone the repository from GitHub and download Node. This application also requires a file system and inquirer module. 
 
 # Video  
-  <img src="utils/readmeVideo.gif"><br>
-
+![GIF of my project in action](./utils/readmeVideo.gif)
 
  ## License 
   This project is license under MIT
