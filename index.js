@@ -14,13 +14,56 @@ const questions = () =>{
         {
             type:'input',
             name:'github',
-            message:'What is your Github username?',
+            message:'Enter your Github username?',
             validate:nameInput=>{
                 if(nameInput){
                     return true;
                 }
                 else{
                     console.log('please enter your Github user')
+                    return false;
+                }
+            }
+        },
+        {
+            type:'input',
+            name:'email',
+            message:'Enter your email address?',
+            validate:nameInput=>{
+                if(nameInput){
+                    return true;
+                }
+                else{
+                    console.log('please enter correct email address')
+                    return false;
+                }
+            }
+    
+        },
+        {
+            type:'input',
+            name:'title',
+            mesaage:'Enter your project name?',
+            validate:nameInput =>{
+                if(nameInput){
+                    return true;
+                }
+                else{
+                    console.log('Please enter your projectname?')
+                    return false;
+                }
+            }
+        },
+        {
+            type:'input',
+            name:'description',
+            mesaage:'Write a short description about the project',
+            validate:nameInput =>{
+                if(nameInput){
+                    return true;
+                }
+                else{
+                    console.log('Please enter the project description')
                     return false;
                 }
             }
