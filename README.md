@@ -1,11 +1,13 @@
 # readme-generator
 This application was developed to produce a professional and high-quality README by collecting input from users via command-line prompts using Node.js.
 
-# Table of Contents
-Installation
-Usage
-Credits
-License
+## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
 
 # Installation
